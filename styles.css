@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
 }
 body {
   width: 1600px;
+  font-family: "Inter", sans-serif;
 }
 nav {
   width: 1360px;
@@ -57,14 +57,21 @@ nav button:hover {
   vertical-align: middle;
   width: 1600px;
   height: 674px;
-  margin: auto;
-  text-align: center;
   padding-top: 115px;
+}
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  width: 1360px;
 }
 .banner .banner-heading {
   margin: auto;
   width: 229px;
   height: 35px;
+  font-family: "Inter", sans-serif;
 }
 .banner .banner-heading span {
   display: inline-flex;
@@ -82,4 +89,60 @@ nav button:hover {
   width: 16px;
   height: 16px;
   vertical-align: middle;
+}
+.banner-main-content {
+  width: 770px;
+  margin: auto;
+}
+.banner-main-content h1 {
+  margin-top: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-main-content .color-green {
+  color: #30b868;
+}
+.banner-main-content p {
+  margin-top: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.banner-button button {
+  margin-top: 32px;
+  background-color: #469165;
+  width: 251px;
+  height: 52px;
+  padding: 16px 12px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffffff;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.banner-button .btn-2 {
+  width: 220px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.banner-button button:hover {
+  background-color: #36774a;
 }
