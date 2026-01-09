@@ -176,7 +176,7 @@ nav button:hover {
   gap: 20px;
 }
 .card {
-  box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #0000001a;
   width: 322px;
   height: 300px;
   display: flex;
@@ -184,11 +184,18 @@ nav button:hover {
   align-items: center;
   justify-content: center;
 }
-.notes-cards .card img {
+.notes-cards .card span {
   width: 60px;
   height: 60px;
   background-color: #f95555;
   border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.notes-cards .card span img {
+  width: 32px;
+  height: 32px;
 }
 .notes-cards .card h2 {
   font-size: 24px;
@@ -207,4 +214,48 @@ nav button:hover {
   text-align: center;
   padding-left: 24px;
   padding-right: 24px;
+}
+/* solution section  */
+
+.solution {
+  width: 1360px;
+  display: flex;
+  padding: 120px;
+  gap: 60px;
+  align-items: center;
+}
+
+.solution-container {
+  width: 700px;
+  height: 396px;
+}
+.solution-container h6 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #469165;
+  margin-bottom: 16px;
+}
+.solution-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  white-space: nowrap;
+  margin-bottom: 16px;
+}
+.solution-container p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.solution-container li {
+  list-style: none;
+  display: inline-flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.solution-container li img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
