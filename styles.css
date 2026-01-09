@@ -6,7 +6,6 @@
 }
 body {
   width: 1600px;
-  font-family: "Inter", sans-serif;
 }
 nav {
   width: 1360px;
@@ -145,4 +144,67 @@ nav button:hover {
 }
 .banner-button button:hover {
   background-color: #36774a;
+}
+/* notes */
+
+.notes {
+  width: 1360px;
+  margin: auto;
+}
+.notes-intro {
+  text-align: center;
+  margin-top: 40px;
+}
+.notes-intro h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 42px;
+  color: #001931;
+}
+.notes-intro p {
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.notes-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.card {
+  box-shadow: 0px 0px 8px 0px #000000;
+  width: 322px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notes-cards .card img {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+}
+.notes-cards .card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 16px;
+  color: #001931;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.notes-cards .card p {
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 16px;
+  color: #627382;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
 }
