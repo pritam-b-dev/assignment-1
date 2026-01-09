@@ -49,3 +49,37 @@ nav button {
 nav button:hover {
   background-color: #36774a;
 }
+
+.banner {
+  background: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+  width: 1600px;
+  height: 674px;
+  margin: auto;
+  text-align: center;
+  padding-top: 115px;
+}
+.banner .banner-heading {
+  margin: auto;
+  width: 229px;
+  height: 35px;
+}
+.banner .banner-heading span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 5px;
+}
+.banner span img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
