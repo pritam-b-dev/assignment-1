@@ -82,7 +82,7 @@ nav button:hover {
   color: #469165;
   font-size: 16px;
   font-weight: 500;
-  gap: 5px;
+  gap: 6px;
 }
 .banner span img {
   width: 16px;
@@ -95,7 +95,6 @@ nav button:hover {
 }
 .banner-main-content h1 {
   margin-top: 16px;
-  font-family: "Inter", sans-serif;
   font-size: 72px;
   font-weight: bold;
   line-height: 84px;
@@ -107,7 +106,6 @@ nav button:hover {
 }
 .banner-main-content p {
   margin-top: 16px;
-  font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -137,7 +135,7 @@ nav button:hover {
   cursor: pointer;
 }
 .banner-button .btn-2 {
-  width: 220px;
+  width: 198px;
   height: 52px;
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -145,15 +143,24 @@ nav button:hover {
 .banner-button button:hover {
   background-color: #36774a;
 }
+.btn-1 img,
+.btn-2 img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
 /* notes */
-
+.notes-structure {
+  background-color: #f7f6f24f;
+}
 .notes {
   width: 1360px;
   margin: auto;
 }
 .notes-intro {
   text-align: center;
-  margin-top: 40px;
+  padding-top: 60px;
+  background-color: #ffffff;
 }
 .notes-intro h1 {
   font-size: 48px;
@@ -183,6 +190,7 @@ nav button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
 .notes-cards .card span {
   width: 60px;
@@ -315,6 +323,12 @@ nav button:hover {
   font-weight: 600;
   cursor: pointer;
 }
+.join-now-button-section button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  color: #ffffff;
+}
 .join-now-button-section button:hover {
   background-color: #36774a;
 }
@@ -351,6 +365,13 @@ footer .logo-social .social h4 {
 }
 footer .logo-social .social a {
   padding-right: 17px;
+}
+footer .logo-social .social a img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 footer hr {
   width: 1360px;
